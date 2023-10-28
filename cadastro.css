@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.logo1{
+    width: 240px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    color: #f0f8fc
+    color: #023047
+}
+
+.p1{
+    display: flex;
+    gap: 50px;
 }
 
 .page {
@@ -15,39 +24,40 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, rgb(28, 28, 41) 0%, rgba(48,41,60,0.6558998599439776) 35%, rgb(216, 224, 226) 100%);
+    background-color:#773a4f;
 }
 
-.formLogin {
-    display: flex;
+.formCadastro {
+    display: inline;
+    float: left;
+    width: 35%;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 7px;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px
 }
 
-.areaLogin img {
+.areaCadastro img {
     width: 420px;
 }
 
-.formLogin h1 {
+.formCadastro h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
     font-size: 2.3em;
-    color: black;
 }
 
-.formLogin p {
+.formCadastro p {
     display: inline-block;
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
 }
 
-.formLogin input {
+.formCadastro input {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -59,17 +69,16 @@ body {
 }
 
 
-.formLogin input:focus {
-    border: 1px solid #6d2649;
+.formCadastro input:focus {
+    border: 1px solid #682843;
 }
 
-.formLogin label {
+.formCadastro label {
     font-size: 14px;
     font-weight: 600;
-    color: black;
 }
 
-.formLogin a {
+.formCadastro a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
@@ -77,12 +86,12 @@ body {
     transition: all linear 160ms;
 }
 
-.formLogin a:hover {
-    color: #291441;
+.formCadastro a:hover {
+    color: #c1829d;
 }
 
 .btn {
-    background-color: #300e30;
+    background-color: #503e46;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
@@ -95,6 +104,6 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: #3f0823;
+    background-color: #917c85;
 
 }

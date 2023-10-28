@@ -1,0 +1,118 @@
+*{
+    background-color: #0a0a0a;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #0a0a0a;
+    height: 13vh;
+  
+  }
+
+  
+  .logo{
+    font-weight: 800;
+    font-size: 25px;
+    
+  }
+  
+  .nav-itens {
+    list-style: none;
+    display: flex;
+  }
+  
+  
+  .nav-itens>li>a{
+    padding-left: 20px;
+    list-style: none;
+    display: flex;
+    color: #ecdcdc;
+    text-decoration: none;
+  }
+  
+  .login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+  }
+  
+  .cadastro {
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c1829d;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+  }
+  
+  .cadastro:hover{
+    background-color: #e7b7cc;
+    transition: 1s background;
+  }
+  
+  .login:hover{
+    background-color: #e7b7cc;
+    color: white;
+    transition: 1s background;
+  }
+  .produtos {
+    display: flex;
+    border-radius: 10%;
+   
+}
+
+.borderimg {
+    background-color: purple;
+    border-radius: 50px;
+    max-width: 450px;
+}
+
+.textos {
+  flex: 1;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+    margin-top: 35px;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column; /* Coloca os botões em uma coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  margin-left: 50px;
+}
+
+.buttons {
+  background-color: #000000;
+  border: none;
+  color: #3f3434;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0; /* Removido o margin direito para centralizar */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.buttons:hover {
+  background-color: #313231;
+}

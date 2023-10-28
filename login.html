@@ -1,47 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
-    <title>Login Form</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <main class="container">
-        <h2>Login</h2>
-        <form action="">
-            <div class="input-field">
-                <input type="text" name="username" id="username"
-                    placeholder="Enter Your Username">
-                <div class="underline"></div>
-            </div>
-            <div class="input-field">
-                <input type="password" name="password" id="password"
-                    placeholder="Enter Your Password">
-                <div class="underline"></div>
-            </div>
-
-            <input type="submit" value="Continue">
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" name="senha" placeholder="Digite seu e-mail" />
+            <a href="cadastro.html">Ainda não é cliente? Faça seu cadastro aqui.</a>
+            <input type="submit" value="Acessar" class="btn" name="btnLogin"/>
+            
         </form>
-
-        <div class="footer">
-            <span>Or Connect With Social Media</span>
-            <div class="social-fields">
-                <div class="social-field twitter">
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                        Sign in with Twitter
-                    </a>
-                </div>
-                <div class="social-field facebook">
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                        Sign in with Facebook
-                    </a>
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
+    
 </body>
 </html>
